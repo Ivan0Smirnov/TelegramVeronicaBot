@@ -1,0 +1,5 @@
+services:
+  veronica-bot:
+    build: .
+    environment:
+      BOT_TOKEN: ${BOT_TOKEN}
